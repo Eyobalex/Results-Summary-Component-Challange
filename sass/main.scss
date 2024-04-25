@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --width-desktop: 144rem;
   --width-mobile: 37.5rem;
@@ -22,8 +23,6 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
   --dark-grey-blue: hsl(224, 30%, 27%);
-
-
 
 
 }
@@ -51,3 +50,49 @@ body {
   font-optical-sizing: auto;
   box-sizing: border-box;
 }
+
+.container {
+}
+
+.btn {
+}
+
+.result {
+  &__score {
+  }
+
+  &__score-title {
+  }
+
+  &__score-container {
+  }
+
+  &__actual-score {
+  }
+
+  &__total-score {
+  }
+
+  &__info-title {
+  }
+
+  &__info {
+  }
+
+  &__summary {
+    &-title {
+    }
+
+    &-banner {
+    }
+
+    &-title {
+    }
+
+    &-score {
+    }
+
+  }
+
+}
+

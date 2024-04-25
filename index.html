@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Results summary component</title>
 
 
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+<div class="container">
+    <div class="result">
+        <div class="result__score">
+            <p class="result__score-title">Your Result</p>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+            <div class="result__score-container">
+                <p class="result__actual-score">76</p>
+                <p class="result__total-score">of 100</p>
+            </div>
 
-  Reaction
-  80 / 100
+            <p class="result__info-title">Great</p>
+            <p class="result__info">
+                You scored higher than 65% of the people who have taken these tests.
+            </p>
+        </div>
+        <div class="result__summary">
 
-  Memory
-  92 / 100
+            <p class="result__summary-title">Summary</p>
 
-  Verbal
-  61 / 100
+            <div class="result__summary-banner">
+                <img src="assets/images/icon-reaction.svg" alt="Icon Reaction" class="result__summary-icon">
+                <p class="result__summary-title">Reaction</p>
+                <p class="result__summary-score">80 / 100</p>
+            </div>
+            <div class="result__summary-banner">
+                <img src="assets/images/icon-memory.svg" alt="Icon Reaction" class="result__summary-icon">
+                <p class="result__summary-title">Memory</p>
+                <p class="result__summary-score">92 / 100</p>
+            </div>
+            <div class="result__summary-banner">
+                <img src="assets/images/icon-verbal.svg." alt="Icon Reaction" class="result__summary-icon">
+                <p class="result__summary-title">Verbal</p>
+                <p class="result__summary-score">61 / 100</p>
+            </div>
+            <div class="result__summary-banner">
+                <img src="assets/images/icon-visual.svg" alt="Icon Reaction" class="result__summary-icon">
+                <p class="result__summary-title">Visual</p>
+                <p class="result__summary-score">72 / 100</p>
+            </div>
 
-  Visual
-  72 / 100
+            <a href="#" class="btn">Continue</a>
 
-  Continue
-  
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
